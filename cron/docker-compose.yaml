@@ -1,0 +1,19 @@
+version: "2"
+services:
+    tasker:
+        image: strm/tasker
+        volumes:
+            - "/var/run/docker.sock:/var/run/docker.sock"
+            
+        environment:
+             configuration: |
+                 schedule:
+                    - every: minute
+                      task: hello
+                 tasks:
+                    docker:
+                    - name: hello
+                      image: curlimages/curl:7.81.0
+                      script-strict: true
+                      script: |
+                        curl -X 'GET' 'http://172.23.0.5:8000/news/countries' -H 'accept: application/json'

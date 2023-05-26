@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+aylien-news-api
+python-dotenv
+elasticsearch
+openai
+gradio
+langchain
+tiktoken
+streamlit

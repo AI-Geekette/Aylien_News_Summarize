@@ -1,0 +1,1 @@
+-H 'accept: */*' -H 'Content-Type: application/json' -d '{"text": "lebanon","published_at_start": "NOW-1HOUR","published_at_end": "NOW","language": ["en","ar"],"sort_by": "published_at"}'

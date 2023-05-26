@@ -1,0 +1,85 @@
+{   
+    "countries_middle_east":{
+        "Lebanon": {"code": "LB", "cities": ["Beirut", "Tripoli","Sidon", "Tyre", "Jounieh", "Byblos", "Aley", "Nabatieh", "Baalbek", "Zahle", "Zgharta Ehden", "Batroun"]}, 
+        "Egypt": {"code":"EG", "cities": ["Alexandria", "Aswan", "Asyut", "Damanhur", "Beni Suef", "Cairo", "Mansoura", "Damietta", "Faiyum", "Tanta", "Giza", "Ismailia", "Kafr El Sheikh", "Luxor", "Suez"]}, 
+        "Syria": {"code": "SY", "cities": ["Damascus", "Aleppo", "Raqqa", "Al Hasakah", "Idlib", "Hama", "Tartus", "Homs", "Quneitra", "Daraa", "Al Suwayda", "Latakia", "Deir ez Zor", "Rif Dimashq"]}, 
+        "Yemen": {"code":"YE", "cities": []}, 
+        "Israel":{"code":"IL", "cities": []}, 
+        "Turkey": {"code":"TR", "cities": []}, 
+        "Libya": {"code":"LY", "cities": []}, 
+        "Jordan": {"code":"JO", "cities": []}, 
+        "Iraq": {"code":"IQ", "cities": []}, 
+        "Iran":{"code":"IR", "cities": []} 
+    } ,
+    
+    "topics_list": ["GeneralPolitics", "Economy", "NationalSecurity", "Government"], 
+
+    "categories_per_topic": {
+
+        "GeneralPolitics": {
+        "categories_taxonomy": "iab-qag",  
+        "catgories_pool": {"IAB11-4": "Politics", 
+            "IAB11": "Law, Gov’t & Politics", 
+            "IAB11-2": "Legal Issues"}
+        }, 
+
+        "Government": {
+        "categories_taxonomy": "iptc-subjectcode",  
+        "catgories_pool": {  
+            "02006000":"laws", 
+            "04008008": "government debt", 
+            "04008019": "budgets and budgeting", 
+            "11003000": "election", 
+            "11002000":"diplomacy", 
+            "11006000": "government", 
+            "11006008": "public officials",
+            "11009000": "parliament",
+            "11010000": "parties and movements", 
+            "11015000": "constitution", 
+            "11021000": "lobbying",
+            "11024002": "democracy"}
+        }, 
+        "Economy":{
+            "categories_taxonomy": "iptc-subjectcode",  
+            "catgories_pool": {  
+                "16011000": "crisis", 
+                "11021000": "lobbying", 
+                "11005000": "foreign aid", 
+                "09009000": "unemployment",
+                "06006009": "energy resources", 
+                "06006000": "natural resources", 
+                "04019001": "money and monetary policy", 
+                "04016007": "bankruptcy",
+                "04008036": "trade balance", 
+                "04008019": "budgets and budgeting", 
+                "04008010": "international economic institution",
+                "04008016": "inflation and deflation", 
+                "04008015": "trade dispute", 
+                "04008008": "government debt", 
+                "04008001": "central bank", 
+                "04008000": "macro economics"}
+        }, 
+
+        "NationalSecurity": {
+            "categories_taxonomy": "iptc-subjectcode",  
+            "catgories_pool": {  
+                "16009002": "international military intervention", 
+                "16009000": "war",
+                "16005002": "bombings", 
+                "14003003": "revolutions", 
+                "16002000": "armed conflict", 
+                "16001000": "act of terror",
+                "16000000":"unrest, conflicts and war",
+                "11006002": "safety of citizens", 
+                "11004000": "espionage and intelligence",
+                "11001004": "armed Forces", 
+                "11001003": "security measures",
+                "11001002": "national security", 
+                "11001000": "defence", 
+                "03015000": "disaster (general)", 
+                "03000000": "disaster and accident",
+                "02013000": "war crime", 
+                "02001007": "kidnapping"
+                }
+        }
+    }}

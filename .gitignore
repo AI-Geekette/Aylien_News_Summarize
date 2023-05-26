@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+*$py.class
+aylienapp/*
+aylien_app/aylien_env_settings/.env.dev
+aylien_app/flagged/*
