@@ -95,4 +95,4 @@ App routes:
 
 /custom/{keywords} Gets news about a specific keyword like "crypto" or "bitcoin" :smiley:
 
-![Alt text](../Desktop/fastapi_app.png)
+![Alt text](./media/fastapi_app.png)
