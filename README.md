@@ -8,7 +8,8 @@ I invite you to explore the external Aylien API as I find it well structured and
 
 
 # Demo
-[video_demo](./media/aylien_news_demo.mp4.mp4)
+[![Demo CountPages alpha](media/aylien_news_demo__online-video-cutter_com__AdobeExpress.gif)](./media/aylien_news_demo.mp4.mp4)
+
 
 ## Run Locally
 
