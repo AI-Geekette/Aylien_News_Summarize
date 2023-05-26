@@ -1,0 +1,4 @@
+[linguist]
+    namespaced-types = 1
+[github "linguist"]
+    python = Python 3
