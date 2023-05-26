@@ -8,7 +8,7 @@ I invite you to explore the external Aylien API as I find it well structured and
 
 
 # Demo
-[label](../Desktop/Records/aylien_news_demo.mp4)
+[video_demo](./media/aylien_news_demo.mp4.mp4)
 
 ## Run Locally
 
